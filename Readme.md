@@ -1,7 +1,8 @@
 # Личный проект «Техномарт»
 
 * Студент: [Alexej Gončarenko](https://up.htmlacademy.ru/htmlcss/25/user/1002833).
-* Наставник: `Юрий Зайцев`.
+* Наставник: [Юрий Зайцев] (https://htmlacademy.ru/profile/id89805)
+}
 
 ---
 
