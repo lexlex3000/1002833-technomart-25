@@ -5,6 +5,9 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
+
+  <!-- Шапка -->
+
     <header class="main-header">
       <div class="top-menu">
         <a class="main-header-logo">
@@ -76,20 +79,76 @@
         <a href="#">все производители</a>
         <ul class="products">
           <li>
-            <img src="img/bfg9000.jpg" alt="Перфоратор BOSCH BFG 9000" width="218" height="170">
-            <h3>Перфоратор BOSCH BFG 9000</h3>
+            <article>
+              <img src="img/bfg9000.jpg" alt="Перфоратор BOSCH BFG 9000" width="218" height="170">
+              <a href="cart.html">
+                <div class="buy-button">
+                  <img src="img/cart-icon.jpg">
+                  Купить
+                </div>
+              </a>
+              <a href="bookmarks.html">
+                <div class="bukmark-button">
+                  В закладки
+                </div>
+              </a>
+              <h3>Перфоратор BOSCH BFG 9000</h3>
+              <p><del>32500 P.</del></p>
+              <p class="item-button">15500 P.</p>
+            </article>
           </li>
           <li>
-            <img src="img/bfg3000.jpg" alt="Перфоратор BOSCH BFG 3000" width="218" height="170">
-            <h3>Перфоратор BOSCH BFG 3000</h3>
+            <article>
+              <img src="img/bfg3000.jpg" alt="Перфоратор BOSCH BFG 3000" width="218" height="170">
+              <a href="cart.html">
+                <div class="buy-button">
+                  <img src="img/cart-icon">
+                   Купить
+                </div>
+              </a>
+              <a href="bookmark.html">
+                <div class="bookmark-button">
+                  В закладки
+                </div>
+              </a>
+              <h3>Перфоратор BOSCH BFG 3000</h3>
+              <p><del>2250 P.</del></p>
+              <p class="item-button">15500 P.</p>
+            </article>
           </li>
           <li>
-            <img src="img/bfg6000.jpg" alt="Перфоратор BOSCH BFG 6000" width="218" height="170">
-            <h3>Перфоратор BOSCH BFG 6000</h3>
+            <article>
+              <img src="img/bfg6000.jpg" alt="Перфоратор BOSCH BFG 6000" width="218" height="170">
+              <a href="cart.html">
+                <div class="buy-button">
+                  <img src="img/cart-icon">
+                  Купить
+                </div>
+              </a>
+              <a href="bookmark.html">
+                <div class="bukmark-button">
+                  В закладки
+                </div>
+              </a>
+              <h3>Перфоратор BOSCH BFG 6000</h3>
+              <p><del>30500 P.</del></p>
+              <p class="item-button">25500 P.</p>
+            </article>
           </li>
           <li>
-            <img src="img/bfg2000.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
-            <h3>Перфоратор BOSCH BFG 2000</h3>
+            <article>
+              <img src="img/bfg2000.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
+              <a href="cart.html">
+                <div class="buy-button">
+                  Купить
+                </div>
+              </a>
+              <a class="bookmark-button">
+                В закладки
+              </a>
+              <h3>Перфоратор BOSCH BFG 2000</h3>
+              <div class="item-button">12500 P</div>
+            </article>
           </li>
         </ul>
       </section>
@@ -98,13 +157,13 @@
         <h2>Популярные производители:</h2>
         <ul>
           <li class="bosch"><img src="img/bosh.jpg" alt="bosch" width="220" height="145"></li>
-          <li class="Makita"><img src="img/Makita.jpg" alt="Makita"></li>
-          <li class="DeWALT"><img src="img/DeWALT" alt="DeWALT"></li>
-          <li class="invalid-name"><img src="img/interskol.jpg" alt="inteskol"></li>
-          <li class="Htachi"><img src="img/Hitachi.jpg" alt="Hitachi"></li>
-          <li class="LG"><img src="img/LG.jpg" alt="LG"></li>
-          <li class="AEG"><img src="img/AEG.jpg" alt="AEG"></li>
-          <li class="Metabo"><img src="img/Metabo.jpg" alt="Metabo"></li>
+          <li class="Makita"><img src="img/Makita.jpg" alt="Makita" width="220" height="145"></li>
+          <li class="DeWALT"><img src="img/DeWALT" alt="DeWALT" width="220" height="145"></li>
+          <li class="invalid-name"><img src="img/interskol.jpg" alt="inteskol"width="220" height="145"></li>
+          <li class="Htachi"><img src="img/Hitachi.jpg" alt="Hitachi"width="220" height="145"></li>
+          <li class="LG"><img src="img/LG.jpg" alt="LG"width="220" height="145"></li>
+          <li class="AEG"><img src="img/AEG.jpg" alt="AEG"width="220" height="145"></li>
+          <li class="Metabo"><img src="img/Metabo.jpg" alt="Metabo"width="220" height="145"></li>
         </ul>
       </section>
       <section class="service-back">
@@ -150,19 +209,54 @@
 
         <a class="feedback-button" href="feedback-form.html">Заблудились? НапиШИТЕ НАМ!</a>
       </section>
+
+      <!-- Подвал -->
+
       <footer>
         <section class="footer-nav-back">
           <a class="main-header-logo">
             <img src="img/index-logo.svg" width="220" height="47" alt="Логотип интернет-магазины Техномарт">
           </a>
           <ul>
-            <li><a href="company.html" </li>
-            <li><a href="news.html" </li>
-            <li><a href="catalog.html"></a> </li>
-            <<li><a href="delivery.html" </li>
-            <li><a href="kontakts.com" </li>
+            <li><a href="company.html">Компания</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="kontakts.com">Контакты</a></li>
           </ul>
-
+        </section>
+        <section class="footer-contacts-back">
+          <p>
+            © 2010–2019 Компания «Техномарт»<br>
+            Все права защищены
+          </p>
+          <ul>
+            <li class="icon-back">
+              <a href="http://vk.com">
+                <img src="img/vk-icon.png" class="vk-icon">
+              </a>
+            </li>
+            <li class="icon-back">
+              <a href="http://facebook.com">
+                <img src="img/fb-icon.png" class="fb-icon">
+              </a>
+            </li>
+            <li>
+              <a href="http://instagram.com">
+                <img src="img/insta-icon.png" class="insta-icon">
+              </a>
+            </li>
+          </ul>
+          <p class="mailhtmlacademyru">
+            Обратная связь:<br>
+            mail@htmlacademy.ru
+          </p>
+          <a href="http://htmlacademt.ru">
+            <p class="htmlacademyru">
+            Разработано —<br>
+            htmlacademy.ru
+            </p>
+          </a>
         </section>
       </footer>
 
